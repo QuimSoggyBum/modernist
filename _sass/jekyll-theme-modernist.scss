@@ -8,12 +8,19 @@ html {
 }
 
 body {
+    font-family: 'Comic Sans MS', 'Chalkboard SE', cursive;
+    background: linear-gradient(180deg, #D52D00 0%, #D52D00 14.28%, #EF7627 14.28%, #EF7627 28.56%, #FF9A56 28.56%, #FF9A56 42.84%, #FFFFFF 42.84%, #FFFFFF 57.12%, #D162A4 57.12%, #D162A4 71.4%, #B55690 71.4%, #B55690 85.68%, #A30262 85.68%, #A30262 100%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    cursor: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Ctext y='16' font-size='16'%3E%E2%98%85%3C/text%3E%3C/svg%3E), auto;
+  
   padding:50px 0;
   margin:0;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#292828;
   font-weight:300;
-  background:url('../images/checker.png') fixed;
+  /*background:url('../images/checker.png') fixed;*/
   min-height: calc(100% - 100px);
 }
 
